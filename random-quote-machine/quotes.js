@@ -69,7 +69,6 @@ var view = {
 		var quotesDiv = document.getElementById('quotes');
 		// for (var i = 0;)
 		quotesDiv.innerHTML = data.quotes[view.getRandomIntInclusiv(0,2)].quote;
-		alert('new quote');
 	},
 	getRandomIntInclusiv: function(min, max) {
 	  min = Math.ceil(min);
